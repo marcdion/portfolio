@@ -33,6 +33,9 @@ header nav .navbar-collapse .navbar-nav .nav-item a.active {
   font-size: 40px;
   font-weight: 600;
 }
+.main .main-container .greeting .hello .code-icon, .main .main-container .what-i-do .hello .code-icon {
+  padding-right: 5px;
+}
 .main .main-container .greeting .name, .main .main-container .what-i-do .name {
   font-size: 60px;
   font-weight: 600;
@@ -75,7 +78,7 @@ header nav .navbar-collapse .navbar-nav .nav-item a.active {
   text-decoration: none;
 }
 .footer .container .social a svg {
-  font-size: 20px;
+  font-size: 25px;
 }
 .footer .container .social a svg:hover {
   color: #808080;

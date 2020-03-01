@@ -48,6 +48,10 @@ header{
             .hello{
                 font-size: 40px;
                 font-weight: 600;
+
+                .code-icon{
+                    padding-right: 5px;
+                }
             }
             .name{
                 font-size: 60px;
@@ -99,7 +103,7 @@ header{
                 text-decoration: none;
 
                 svg {
-                    font-size: 20px;
+                    font-size: 25px;
 
                     &:hover{
                         color: #808080
