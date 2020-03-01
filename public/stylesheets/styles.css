@@ -60,6 +60,10 @@ header nav .navbar-collapse .navbar-nav .nav-item a.active {
   text-decoration: none;
   font-weight: 700;
 }
+.main .main-container .greeting .radio, .main .main-container .what-i-do .radio {
+  display: flex;
+  justify-content: space-evenly;
+}
 .main .main-container .what-i-do {
   padding-top: 25px;
 }
