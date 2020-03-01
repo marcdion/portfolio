@@ -27,7 +27,7 @@ header nav .navbar-collapse .navbar-nav .nav-item a.active {
   padding-top: 100px;
 }
 .main.about .main-container {
-  width: 60%;
+  width: 55%;
 }
 .main .main-container .greeting .hello, .main .main-container .what-i-do .hello {
   font-size: 40px;
