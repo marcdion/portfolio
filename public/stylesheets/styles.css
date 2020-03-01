@@ -1,0 +1,109 @@
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+header nav .navbar-brand {
+  font-size: 24px;
+  font-weight: 700;
+}
+header nav .navbar-collapse .navbar-nav .nav-item a {
+  font-size: 20px;
+  color: black;
+  font-weight: 500;
+}
+header nav .navbar-collapse .navbar-nav .nav-item a.active {
+  font-weight: 700;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main.about {
+  align-items: flex-start;
+  padding-top: 100px;
+}
+.main.about .main-container {
+  width: 60%;
+}
+.main .main-container .greeting .hello, .main .main-container .what-i-do .hello {
+  font-size: 40px;
+  font-weight: 600;
+}
+.main .main-container .greeting .name, .main .main-container .what-i-do .name {
+  font-size: 60px;
+  font-weight: 600;
+}
+.main .main-container .greeting .description, .main .main-container .what-i-do .description {
+  font-size: 24px;
+  font-weight: 600;
+}
+.main .main-container .greeting .cta, .main .main-container .what-i-do .cta {
+  padding-top: 25px;
+}
+.main .main-container .greeting .cta a, .main .main-container .what-i-do .cta a {
+  margin-right: 10px;
+  font-size: 20px;
+}
+.main .main-container .greeting .about-me-text, .main .main-container .what-i-do .about-me-text {
+  padding-top: 25px;
+  font-size: 20px;
+}
+.main .main-container .greeting .about-me-text span a, .main .main-container .what-i-do .about-me-text span a {
+  color: black;
+  text-decoration: none;
+  font-weight: 700;
+}
+.main .main-container .what-i-do {
+  padding-top: 25px;
+}
+
+.footer {
+  background-color: white;
+}
+.footer .container {
+  display: flex;
+  justify-content: end;
+  max-width: 100%;
+}
+.footer .container .social a {
+  color: black;
+  padding: 5px;
+  text-decoration: none;
+}
+.footer .container .social a svg {
+  font-size: 20px;
+}
+.footer .container .social a svg:hover {
+  color: #808080;
+}
+
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: italic;
+  font-weight: 400;
+  src: local("Source Sans Pro Italic"), local("SourceSansPro-Italic"), url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7nsDc.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: italic;
+  font-weight: 700;
+  src: local("Source Sans Pro Bold Italic"), local("SourceSansPro-BoldItalic"), url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZclSds18E.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Source Sans Pro Regular"), local("SourceSansPro-Regular"), url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7g.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Source Sans Pro Bold"), local("SourceSansPro-Bold"), url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwlxdr.ttf) format("truetype");
+}
+
+/*# sourceMappingURL=styles.css.map */
