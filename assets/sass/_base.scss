@@ -143,26 +143,22 @@ header{
 }
 
 
-.footer{
-    background-color: white;
+.social-container{
+    display: flex;
+    justify-content: start;    
+    max-width: 100%;
 
-    .container{
-        display: flex;
-        justify-content: end;    
-        max-width: 100%;
+    .social{
+        a{
+            color: black;
+            padding: 5px;
+            text-decoration: none;
 
-        .social{
-            a{
-                color: black;
-                padding: 5px;
-                text-decoration: none;
+            svg {
+                font-size: 25px;
 
-                svg {
-                    font-size: 25px;
-
-                    &:hover{
-                        color: #808080
-                    }
+                &:hover{
+                    color: #808080
                 }
             }
         }

@@ -107,23 +107,20 @@ header nav .navbar-collapse .navbar-nav .nav-item a.active {
   padding-top: 25px;
 }
 
-.footer {
-  background-color: white;
-}
-.footer .container {
+.social-container {
   display: flex;
-  justify-content: end;
+  justify-content: start;
   max-width: 100%;
 }
-.footer .container .social a {
+.social-container .social a {
   color: black;
   padding: 5px;
   text-decoration: none;
 }
-.footer .container .social a svg {
+.social-container .social a svg {
   font-size: 25px;
 }
-.footer .container .social a svg:hover {
+.social-container .social a svg:hover {
   color: #808080;
 }
 
