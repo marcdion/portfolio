@@ -2,6 +2,9 @@ body {
   font-family: "Source Sans Pro", sans-serif;
 }
 
+header nav {
+  background-color: white;
+}
 header nav .navbar-brand {
   font-size: 24px;
   font-weight: 700;
@@ -72,10 +75,6 @@ header nav .navbar-collapse .navbar-nav .nav-item a.active {
 }
 .main .main-container .greeting .about-me-text .stay-tuned, .main .main-container .what-i-do .about-me-text .stay-tuned {
   padding-top: 25px;
-}
-.main .main-container .greeting .radio, .main .main-container .what-i-do .radio {
-  display: flex;
-  justify-content: space-evenly;
 }
 .main .main-container .greeting .portfolio-landing-container, .main .main-container .what-i-do .portfolio-landing-container {
   margin-top: 50px;

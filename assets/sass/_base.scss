@@ -4,6 +4,7 @@ body{
 
 header{
     nav{
+        background-color: white;
         .navbar-brand{
             font-size: 24px;
             font-weight: 700;
@@ -37,7 +38,6 @@ header{
     &.about{
         align-items: flex-start;
         padding-top: 100px;
-
         .main-container{
             width: 90%;
 
@@ -93,8 +93,6 @@ header{
             }
 
             .radio{
-                display: flex;
-                justify-content: space-evenly;
             }
 
             .portfolio-landing-container{
