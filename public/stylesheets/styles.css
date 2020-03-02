@@ -64,6 +64,32 @@ header nav .navbar-collapse .navbar-nav .nav-item a.active {
   display: flex;
   justify-content: space-evenly;
 }
+.main .main-container .greeting .portfolio-landing-container, .main .main-container .what-i-do .portfolio-landing-container {
+  margin-top: 50px;
+}
+.main .main-container .greeting .portfolio-landing-container .portfolio-card, .main .main-container .what-i-do .portfolio-landing-container .portfolio-card {
+  min-height: 325px;
+}
+.main .main-container .greeting .portfolio-landing-container .portfolio-card .portfolio-card-image, .main .main-container .what-i-do .portfolio-landing-container .portfolio-card .portfolio-card-image {
+  height: 175px;
+  width: 350px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .main-container .greeting .portfolio-landing-container .portfolio-card .portfolio-card-image__text, .main .main-container .what-i-do .portfolio-landing-container .portfolio-card .portfolio-card-image__text {
+  font-family: "Luckiest Guy";
+  color: white;
+  font-size: 35px;
+}
+.main .main-container .greeting .portfolio-landing-container .portfolio-card .portfolio-link, .main .main-container .what-i-do .portfolio-landing-container .portfolio-card .portfolio-link {
+  color: #6c757d;
+  text-decoration: none;
+}
+.main .main-container .greeting .portfolio-landing-container .portfolio-card .portfolio-link:hover, .main .main-container .what-i-do .portfolio-landing-container .portfolio-card .portfolio-link:hover {
+  color: black;
+}
 .main .main-container .what-i-do {
   padding-top: 25px;
 }

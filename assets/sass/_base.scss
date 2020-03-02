@@ -84,6 +84,39 @@ header{
                 display: flex;
                 justify-content: space-evenly;
             }
+
+            .portfolio-landing-container{
+                margin-top: 50px;
+
+                .portfolio-card{
+                    min-height: 325px;
+
+                    .portfolio-card-image{
+                        height: 175px;
+                        width: 350px;
+                        background-color: black;
+
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                        &__text{
+                            font-family: 'Luckiest Guy';
+                            color: white;
+                            font-size: 35px;
+                        }
+                    }
+
+                    .portfolio-link{
+                        color: #6c757d;
+                        text-decoration: none;
+
+                        &:hover{
+                            color: black;
+                        }
+                    }
+                }
+            }
         }
 
         .what-i-do{
