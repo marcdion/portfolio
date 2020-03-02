@@ -78,6 +78,10 @@ header{
                     text-decoration: none;
                     font-weight: 700;
                 }
+
+                .stay-tuned{
+                    padding-top: 25px;
+                }
             }
 
             .radio{
@@ -89,11 +93,11 @@ header{
                 margin-top: 50px;
 
                 .portfolio-card{
-                    min-height: 325px;
+                    transition: box-shadow .3s;
 
                     .portfolio-card-image{
                         height: 175px;
-                        width: 350px;
+                        width: 355px;
                         background-color: black;
 
                         display: flex;
@@ -115,6 +119,19 @@ header{
                             color: black;
                         }
                     }
+
+                    &:hover{
+                        box-shadow: 0 0 11px rgba(33,33,33,.2) !important; 
+                    }
+
+                    .mb-15{
+                        margin-bottom: 15px;
+                    }
+                }
+
+                .portfolio-card-link{
+                    text-decoration: none;
+                    color: inherit;
                 }
             }
         }
@@ -150,4 +167,8 @@ header{
             }
         }
     }
+}
+
+.justify{
+    text-align: justify;
 }

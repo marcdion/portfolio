@@ -60,6 +60,9 @@ header nav .navbar-collapse .navbar-nav .nav-item a.active {
   text-decoration: none;
   font-weight: 700;
 }
+.main .main-container .greeting .about-me-text .stay-tuned, .main .main-container .what-i-do .about-me-text .stay-tuned {
+  padding-top: 25px;
+}
 .main .main-container .greeting .radio, .main .main-container .what-i-do .radio {
   display: flex;
   justify-content: space-evenly;
@@ -68,11 +71,11 @@ header nav .navbar-collapse .navbar-nav .nav-item a.active {
   margin-top: 50px;
 }
 .main .main-container .greeting .portfolio-landing-container .portfolio-card, .main .main-container .what-i-do .portfolio-landing-container .portfolio-card {
-  min-height: 325px;
+  transition: box-shadow 0.3s;
 }
 .main .main-container .greeting .portfolio-landing-container .portfolio-card .portfolio-card-image, .main .main-container .what-i-do .portfolio-landing-container .portfolio-card .portfolio-card-image {
   height: 175px;
-  width: 350px;
+  width: 355px;
   background-color: black;
   display: flex;
   justify-content: center;
@@ -89,6 +92,16 @@ header nav .navbar-collapse .navbar-nav .nav-item a.active {
 }
 .main .main-container .greeting .portfolio-landing-container .portfolio-card .portfolio-link:hover, .main .main-container .what-i-do .portfolio-landing-container .portfolio-card .portfolio-link:hover {
   color: black;
+}
+.main .main-container .greeting .portfolio-landing-container .portfolio-card:hover, .main .main-container .what-i-do .portfolio-landing-container .portfolio-card:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2) !important;
+}
+.main .main-container .greeting .portfolio-landing-container .portfolio-card .mb-15, .main .main-container .what-i-do .portfolio-landing-container .portfolio-card .mb-15 {
+  margin-bottom: 15px;
+}
+.main .main-container .greeting .portfolio-landing-container .portfolio-card-link, .main .main-container .what-i-do .portfolio-landing-container .portfolio-card-link {
+  text-decoration: none;
+  color: inherit;
 }
 .main .main-container .what-i-do {
   padding-top: 25px;
@@ -112,6 +125,10 @@ header nav .navbar-collapse .navbar-nav .nav-item a.active {
 }
 .footer .container .social a svg:hover {
   color: #808080;
+}
+
+.justify {
+  text-align: justify;
 }
 
 @font-face {
